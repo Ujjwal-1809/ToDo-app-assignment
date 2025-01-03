@@ -1,0 +1,27 @@
+.editbox{
+    box-shadow: 0 4px 20px black;
+}
+
+/* media query */
+
+@media (max-width: 750px){
+.lists{
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.editInput{
+    width: 90%;
+}
+.editSelect{
+    width:45%;
+    margin-top: 4%;
+}
+.editbox{
+    width: 90%;
+
+}
+.saveBtn{
+    width: 60%;
+}
+}
